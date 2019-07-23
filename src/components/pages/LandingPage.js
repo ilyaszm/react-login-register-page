@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import '../../assets/css/landing-page.css'
+import '../../App.css'
 import BackgroundImage from '../../assets/images/bg.png'
 
 export default function LandingPage() {
     return (
         <header style={ HeaderStyle }>
-            <h1 className="text-center">login / register page</h1>
-            <p className="text-center">join us now and don't waste time</p>
+            <h1 className="main-title text-center">login / register page</h1>
+            <p className="main-para text-center">join us now and don't waste time</p>
             <div className="buttons text-center">
                 <Link to="/login">
                     <button href="https://google.com" id="log_btn">
