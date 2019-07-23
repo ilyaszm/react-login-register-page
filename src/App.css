@@ -6,10 +6,10 @@
 }
 
 body {
-    background: #00171f;
     margin: 0 auto
 }
 
-.z-index {
-    z-index: 1;
+a {
+    text-decoration: none !important;
+    color: inherit
 }

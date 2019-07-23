@@ -1,13 +1,26 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
+import '../../assets/css/landing-page.css'
 import BackgroundImage from '../../assets/images/bg.png'
 
 export default function LandingPage() {
     return (
         <header style={ HeaderStyle }>
-            <h1 className="text-center text-uppercase" style={ TitleStyle }>
-                Welcome
-            </h1>
+            <h1 className="text-center">login / register page</h1>
+            <p className="text-center">join us now and don't waste time</p>
+            <div className="buttons text-center">
+                <Link to="/login">
+                    <button href="https://google.com" id="log_btn">
+                        login
+                    </button>
+                </Link>
+                <Link to="/register">
+                    <button href="https://google.com" id="reg_btn">
+                        <span>register </span>
+                    </button>
+                </Link>
+            </div>
         </header>
     )
 }
@@ -19,9 +32,4 @@ const HeaderStyle = {
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover"
-}
-
-const TitleStyle = {
-    paddingTop: "10rem",
-    color: "#f1f1f1"
 }
