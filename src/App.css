@@ -12,6 +12,10 @@ body {
     margin: 0 auto
 }
 
+.m-5-auto {
+    margin: 5rem auto
+}
+
 /***    Landing Page     ***/
 .main-title,
 .main-para {
@@ -70,10 +74,6 @@ body {
 }
 
 /***    Login Page     ***/
-.login-page {
-    margin: 5rem auto
-}
-
 h2 {
     font-weight: 300
 }

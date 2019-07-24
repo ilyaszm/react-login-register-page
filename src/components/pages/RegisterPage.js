@@ -6,7 +6,7 @@ import '../../App.css'
 export default function SignUpPage() {
 
     return (
-        <div className="text-center login-page">
+        <div className="text-center m-5-auto">
             <h2>Join us</h2>
             <h3>Create your personal account</h3>
             <form action="/home">
