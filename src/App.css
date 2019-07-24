@@ -1,5 +1,3 @@
-
-
 /***    General     ***/
 * {
     box-sizing: border-box;
@@ -14,6 +12,20 @@ body {
 
 .m-5-auto {
     margin: 5rem auto
+}
+
+.primary-button {
+    margin-top: 5rem;
+    margin-right: 1rem;
+    padding: .6rem;
+    width: 10rem;
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all .5s;
+    cursor: pointer;
+    text-transform: capitalize
 }
 
 /***    Landing Page     ***/
@@ -32,21 +44,6 @@ body {
 .main-para {
     font-size: 2.5rem;
     text-Transform: capitalize
-}
-
-#log_btn,
-#reg_btn {
-    margin-top: 5rem;
-    margin-right: 1rem;
-    padding: .6rem;
-    width: 10rem;
-    background: #222;
-    border: none;
-    color: #fff;
-    font-size: 1.2rem;
-    transition: all .5s;
-    cursor: pointer;
-    text-transform: capitalize
 }
 
 #reg_btn span {
@@ -138,4 +135,9 @@ form span {
 
 #reset_pass_lbl {
     float: left
+}
+
+/***    Home Page     ***/
+.home-page-title {
+    color: #222
 }

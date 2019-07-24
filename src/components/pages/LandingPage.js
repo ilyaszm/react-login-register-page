@@ -11,14 +11,10 @@ export default function LandingPage() {
             <p className="main-para text-center">join us now and don't waste time</p>
             <div className="buttons text-center">
                 <Link to="/login">
-                    <button href="https://google.com" id="log_btn">
-                        login
-                    </button>
+                    <button className="primary-button">log in</button>
                 </Link>
                 <Link to="/register">
-                    <button href="https://google.com" id="reg_btn">
-                        <span>register </span>
-                    </button>
+                    <button className="primary-button" id="reg_btn"><span>register </span></button>
                 </Link>
             </div>
         </header>
