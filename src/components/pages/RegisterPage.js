@@ -12,22 +12,24 @@ export default function SignUpPage() {
             <form action="/home">
                 <p>
                     <label>Username</label><br/>
-                    <input type="text" name="first_name" required/>
+                    <input type="text" name="first_name" required />
                 </p>
                 <p>
                     <label>Email address</label><br/>
-                    <input type="email" name="first_name" required/>
+                    <input type="email" name="email" required />
                 </p>
                 <p>
                     <label>Password</label><br/>
-                    <input type="password" name="password" required/>
+                    <input type="password" name="password" requiredc />
                 </p>
                 <p>
-                    <button id="sub_btn" type="submit">Login</button>
+                    <input type="checkbox" name="checkbox" id="checkbox" required /> <span>I agree all statements in <a href="https://google.com" target="_blank" rel="noopener noreferrer">terms of service</a></span>.
+                </p>
+                <p>
+                    <button id="sub_btn" type="submit">Register</button>
                 </p>
             </form>
             <footer>
-                <p>First time? <Link to="/register">Create an account</Link>.</p>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>
         </div>

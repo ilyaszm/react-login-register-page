@@ -89,7 +89,9 @@ form {
 
 form label {
     float: left;
-    font-size: .9rem
+    font-size: .9rem;
+    margin: 0;
+    padding: 0
 }
 
 .right-label {
@@ -126,3 +128,10 @@ footer p {
 }
 
 /***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
