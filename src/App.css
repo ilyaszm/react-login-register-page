@@ -135,3 +135,7 @@ footer p {
 form span {
     font-size: .8rem
 }
+
+#reset_pass_lbl {
+    float: left
+}
