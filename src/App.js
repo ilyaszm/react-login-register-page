@@ -6,40 +6,30 @@ import LoginPage from './components/pages/LoginPage'
 import RegisterPage from './components/pages/RegisterPage'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage'
 import HomePage from './components/pages/HomePage'
-
+import OtpPage from './components/pages/OtpPage'
+import Header from './components/Header/Header'
 import './App.css'
+import Footer from './components/Footer/Footer'
 
 export default function App() {
     return (
         <Router>
-            <div>
+            <div className="App"> 
+            {/* <Header  id="Login_Header" title={"Hello"} subtitle={"hello"} /> */}
+  
+          
                 <Switch>
-                    <Route exact path="/" component={ LandingPage } />
+                    
+                    <Route exact path="/" component={ LoginPage } />
                     <Route path="/login" component={ LoginPage } />
+                    <Route path="/otp" component={ OtpPage }/>
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
                     <Route path="/home" component={ HomePage } />
+                   
                 </Switch>
-                <Footer />
+                {/* <Footer /> */}
             </div>
         </Router>
     )
-}
-
-const Footer = () => {
-    return (
-        <p className="text-center" style={ FooterStyle }>Designed & coded by <a href="https://izemspot.netlify.com" target="_blank" rel="noopener noreferrer">IZEMSPOT</a></p>
-    )
-}
-
-const FooterStyle = {
-    background: "#222",
-    fontSize: ".8rem",
-    color: "#fff",
-    position: "absolute",
-    bottom: 0,
-    padding: "1rem",
-    margin: 0,
-    width: "100%",
-    opacity: ".5"
 }

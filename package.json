@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^1.2.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-phone-number-input": "^3.2.16",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.0.1",
+    "react-select": "^5.7.0",
+    "react-toastify": "^9.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

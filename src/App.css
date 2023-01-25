@@ -1,4 +1,5 @@
 /***    General     ***/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -28,7 +29,9 @@ body {
     text-transform: capitalize
 }
 
+
 /***    Landing Page     ***/
+
 .main-title,
 .main-para {
     color: #f1f1f1
@@ -62,21 +65,23 @@ body {
 }
 
 #reg_btn:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 #reg_btn:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
+
 /***    Login Page     ***/
+
 h2 {
     font-weight: 300
 }
 
 form {
-    display: inline-block;
+    display: contents;
     background: #f3f3f3;
     border: 1px solid #ddd;
     border-radius: 2px;
@@ -92,7 +97,8 @@ form label {
 }
 
 .right-label {
-    float: right;
+    margin-top: 10px;
+    float: inherit;
     cursor: pointer
 }
 
@@ -101,17 +107,22 @@ input {
     padding: .3rem;
     border-radius: 5px;
     outline: none;
-    border: none
+    border: none;
+    background: #323441;
 }
 
 #sub_btn {
-    display: block;
-    width: 100%;
+    /* margin-top: 40px; */
+    display: flex;
+    width: 110px;
     padding: .3rem;
     border: none;
-    background: #222;
-    color: #fff;
+    background: #323441;
+    color: #ed0b70;
     border-radius: 3px;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    /* margin-left: 55px; */
 }
 
 #sub_btn:hover {
@@ -124,7 +135,9 @@ footer p {
     font-size: .9rem
 }
 
+
 /***    Register Page     ***/
+
 #checkbox {
     width: 1rem
 }
@@ -137,7 +150,21 @@ form span {
     float: left
 }
 
+
 /***    Home Page     ***/
+
 .home-page-title {
     color: #222
+}
+
+.Login_Header {
+    color: #ED0B70;
+    align-items: center;
+}
+
+.title-login {
+    align-items: center;
+    font-weight: bold;
+    color: #ed0b70;
+    size: 40px;
 }
